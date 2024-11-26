@@ -1,15 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
 
 :root {
     --font-primary: 'Open Sans', Arial, sans-serif;
-    --color-background: #fafafa;
-    --color-primary: #2c3e50;     
-    --color-secondary: #e67e22;   
-    --color-tertiary: #3498db;  
-    --color-accent: #ecf0f1;       
-    --color-text: #2c3e50;         
-    --color-text-light: #ffffff;   
+    --color-background: #fafafa;       
+    --color-primary: #003366;          
+    --color-secondary: #e67e22;        
+    --color-accent: #ecf0f1;          
+    --color-text: #2c3e50;           
+    --color-text-light: #ffffff;     
 }
 
 * {
@@ -25,17 +23,17 @@ body {
 }
 
 header {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary);   
     color: var(--color-text-light);
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;                            
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .tabs {
     display: flex;
     justify-content: center;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary);    
 }
 
 .tablinks {
@@ -59,7 +57,7 @@ header {
     display: none;
     padding: 20px;
     background-color: var(--color-text-light);
-    border-top: 3px solid var(--color-primary);
+    border-top: 3px solid var(--color-primary); 
     animation: fadeIn 0.5s;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
@@ -74,19 +72,8 @@ header {
 }
 
 h2 {
-    margin-bottom: 20px;
-}
-
-h2.section-title {
     color: var(--color-primary);   
-}
-
-h2.timeline-title {
-    color: var(--color-secondary); 
-}
-
-h2.event-title {
-    color: var(--color-tertiary);  
+    margin-bottom: 20px;
 }
 
 .timeline-container {
@@ -106,7 +93,7 @@ h2.event-title {
     position: absolute;
     left: 50%;
     width: 2px;
-    background: var(--color-secondary);
+    background: var(--color-secondary); 
     top: 0;
     bottom: 0;
     transform: translateX(-50%);
@@ -137,8 +124,7 @@ h2.event-title {
     right: -7px;
     width: 15px;
     height: 15px;
-    background: var(--color-secondary);
-    border: 2px solid var(--color-accent);
+    background: var(--color-secondary); 
     border-radius: 50%;
     z-index: 1;
 }
@@ -151,7 +137,7 @@ h2.event-title {
 .timeline-year {
     font-size: 20px;
     font-weight: bold;
-    color: var(--color-secondary);
+    color: var(--color-secondary);  
 }
 
 .timeline-event {
@@ -179,7 +165,7 @@ h2.event-title {
 #event-year {
     font-size: 26px;
     font-weight: bold;
-    color: var(--color-secondary);
+    color: var(--color-secondary);   
     margin-bottom: 10px;
 }
 
@@ -228,7 +214,7 @@ button, .button {
 }
 
 button:hover, .button:hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary);  
     color: var(--color-text-light);
 }
 
@@ -241,12 +227,12 @@ button:hover, .button:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color-secondary);
+    background: var(--color-secondary);        
     border-radius: 4px;
 }
 
 input:focus, textarea:focus, select:focus {
     outline: none;
-    border-color: var(--color-secondary);
+    border-color: var(--color-secondary);    
     box-shadow: 0 0 5px rgba(230, 126, 34, 0.5);
 }
